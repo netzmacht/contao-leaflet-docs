@@ -10,11 +10,8 @@ Benutzerhandbuch
 .. toctree::
    :maxdepth: 2
 
-   manual/install
+   manual/index
    manual/license
-
-.. toctree::
-   :maxdepth: 2
 
 
 .. _developers:
