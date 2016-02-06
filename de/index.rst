@@ -8,7 +8,7 @@ Benutzerhandbuch
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    manual/index
    manual/license
@@ -20,7 +20,7 @@ Entwicklerhandbuch
 ------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    developer/index
 
