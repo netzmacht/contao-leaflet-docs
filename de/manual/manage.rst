@@ -1,8 +1,9 @@
 Karten & Layer verwalten
 ========================
 
-Leaflet Maps für Contao trennt in der Backend-Verwaltung Karten und Layer. Die gepflegten Layer (Kartentyp, Datenlayer,
-usw.) sind daher erst einmal unabhängig von den Karten und können somit auf mehreren Karten eingesetzt werden.
+Leaflet für Contao trennt die Datenverwaltung von der Darstellung. Sämtliche Kartenelemente werden unter Layer verwaltet. Ob Tile-Layer, Marker, Vektoren, Markercluster, ... - alles wird unter Layer angelegt.
+
+Mit den Karten werden die verschiedenen Layer miteinander verbunden.
 
 .. toctree::
    :maxdepth: 2
