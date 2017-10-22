@@ -7,6 +7,11 @@ Generierung von Javascript
 
 Leaflet für Contao generiert aus der Datebankdefinition automatisch den entsprechenden Javascript-Code. Dieser wird, anders als bei anderen Erweiterungen nicht im Template zusammengesetzt. Das Verhalten der Generierung lässt sich demnach kaum über das Template steuern. Vielmehr beitet Leaflet für Contao einige Schnittstellen auf Programmierebene, wo die Ausgabe manipuliert werden kann.
 
+Dynamisches Laden
+-----------------
+
+Aus den Kartendefinitionen wird Javascript generiert, welcher in das Markup der Seite geladen wird. Bei großen Datenmengen würde dies unnötig den Quelltext aufblähen und die Ladezeiten negativ beeinflussen. Daher können Daten auch dynamisch geladen werden. Dynamsich geladene Daten können z.b. anhand der Kartengrenzen beegrenzt werden.
+
 Datenformat GeoJSON
 -------------------
 
@@ -26,5 +31,5 @@ Das grundlegende Verhalten ist bei der Karte zu konfigurieren. Bei den einzelnen
 
 .. hint: Die Konfiguration ist sehr flexibel. Eine falsche Konfiguration kann jedoch auch dazu führen, dass permanent Daten-    Request an den Server gesandt werden.
 
-Dynamisches Laden
------------------
+Caching
+-------
