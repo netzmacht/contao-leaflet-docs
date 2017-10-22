@@ -38,4 +38,4 @@ Leaflet für Contao generiert aus den im Contao Backend vorgenommenen Konfigurat
 
 Dieser Aufbau ermöglicht eine flexible Manipulation sämtlicher Definitionen, ist aber auch recht rechenintensiv. Daher unterstützt Leaflet für Contao ein Caching. Dies wird auf der Ebene der Karten definiert. Da manche Layer nicht gecacht werden sollen, z.B. da sie auf die Grenzen der Karte reagieren sollen, kann man Layer vom Caching ausschließen.
 
-.. LeafletPHP: https://github.com/netzmacht/php-leaflet
+.. _LeafletPHP: https://github.com/netzmacht/php-leaflet
