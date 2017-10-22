@@ -2,6 +2,11 @@
 Konzepte
 ========
 
+Trennung von Karten und Layern
+------------------------------
+
+Leaflet für Contao trennt die Datenverwaltung von der Darstellung. Sämtliche Kartenelemente werden unter Layer verwaltet. Ob Tile-Layer, Marker, Vektoren, Markercluster, ... - alles wird unter Layer angelegt. Karten dienen dazu die verschiedenen Layeer miteinander zu verbinden und das Verhalten der Karte zu bestimmen. 
+
 Generierung von Javascript
 --------------------------
 
