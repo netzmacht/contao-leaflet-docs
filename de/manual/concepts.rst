@@ -33,3 +33,9 @@ Das grundlegende Verhalten ist bei der Karte zu konfigurieren. Bei den einzelnen
 
 Caching
 -------
+
+Leaflet für Contao generiert aus den im Contao Backend vorgenommenen Konfigurationen eine Definition mit der LeafletPHP_ Bibliothek. Dies ist im Grunde eine Abstraktion dessen, wie man die Karte mit der originalen Javascript-Bibliothek definieren würde. Diese Definition wird letztendlich zu Javascript und GeoJSON Daten konvergiert.
+
+Dieser Aufbau ermöglicht eine flexible Manipulation sämtlicher Definitionen, ist aber auch recht rechenintensiv. Daher unterstützt Leaflet für Contao ein Caching. Dies wird auf der Ebene der Karten definiert. Da manche Layer nicht gecacht werden sollen, z.B. da sie auf die Grenzen der Karte reagieren sollen, kann man Layer vom Caching ausschließen.
+
+.. LeafletPHP: https://github.com/netzmacht/php-leaflet
