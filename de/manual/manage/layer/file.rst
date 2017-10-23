@@ -36,12 +36,14 @@ Mit folgenden Schritten richten Sie ein Datei-Layer ein:
 .. hint: Bitte achten Sie darauf, dass die entsprechenden Formate auch in den erlaubten Upload-Dateitypen definiert sind, wenn
 neue Dateien hochgeladen werden sollen.
 
-### Kartengrenzen
+Kartengrenzen
+~~~~~~~~~~~~~
 
 Als Einflussfaktor auf die Kartengrenzen (Bounds mode) steht die Option `extend` (Bounds relation) zur Verfügung. Die
 Kartengrenzen werden demnach abhängig von den Daten erweitert.
 
-### Callbacks
+Callbacks
+~~~~~~~~~
  
 Wie gewohnt können mithilfe der `pointToLayer`_ und `onEachFeature`_ Callbacks die Darstellung der Daten beeinflusst werden.
 
