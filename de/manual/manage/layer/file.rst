@@ -24,6 +24,8 @@ Exterene Dateien werden als Layer im Backend definiert. Externe Dateien werden g
    :scale:  100%
    :alt:    Datei-Layer im Backend definieren
 
+   Datei-Layer im Backend definieren
+
 Mit folgenden Schritten richten Sie ein Datei-Layer ein:
 
  - Unter Leaflet-Layer einen neuen Layer vom Typ "Datei" (file) anlegen.
