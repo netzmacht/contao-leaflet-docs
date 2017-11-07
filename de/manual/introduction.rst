@@ -20,4 +20,12 @@ Als Karten-Layer legen wir daher nun ein Layer vom Typ **Vorkonfigurierte Karte*
 
 Alle Daten werden bei Leaflet für Contao unter Layern verwaltet. Bevor die Marker selbst angelegt werden können, muss deshalb ein Layer vom Typ **Marker** angelegt werden. Neben der Angabe des Titels ist es erfoderlich den Layer unter *Aktivierung* zu aktivieren.
 
-Schließt man nun die Bearbeitungsmaske erscheint in der Layeransicht ein Bleistift. In der von Contao gewohnen Struktur (z.B. Inhaltselemente von Artikeln) können nun die Marker angelegt werden. Einzugeben sind die Werte für *Title* und *Koordinaten*. Wie bereits bei den Layern ist außerdem das Aktivieren erforderlich. Statt der manuellen Eingabe der Koordinaten (Kommasepararierte Werte für *latitute,longitude[,altidute]*), kann auf das Karten-Widget zur Geokodierung einer eingebenen Adresse verwendet werden.
+Schließt man nun die Bearbeitungsmaske erscheint in der Layeransicht ein Bleistift. In der von Contao gewohnen Struktur (z.B. Inhaltselemente von Artikeln) können nun die Marker angelegt werden. Einzugeben sind die Werte für *Title* und *Koordinaten*. Wie bereits bei den Layern ist außerdem das Aktivieren erforderlich. 
+
+Statt der manuellen Eingabe der Koordinaten (Kommasepararierte Werte für *latitute,longitude[,altidute]*), kann auf das Karten-Widget zur Geokodierung einer eingebenen Adresse verwendet werden.
+
+3. Karte anlegen
+----------------
+
+Nun ist alles vorbereitet um die erste Karte zu erstellen. Im Modul **Leaflet-Karten** kann nun eine neue Karte angelegt werden. [TODO]
+
