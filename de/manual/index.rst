@@ -5,7 +5,7 @@ Benutzerhandbuch
    :maxdepth: 2
 
    install
-   get-started
+   introduction
    concepts
    manage
    usage
