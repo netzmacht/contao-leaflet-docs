@@ -8,4 +8,5 @@ Benutzerhandbuch
    concepts
    manage
    usage
+   customize
    extensions

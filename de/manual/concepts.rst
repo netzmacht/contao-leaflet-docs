@@ -17,6 +17,8 @@ Dynamisches Laden
 
 Aus den Kartendefinitionen wird Javascript generiert, welcher in das Markup der Seite geladen wird. Bei großen Datenmengen würde dies unnötig den Quelltext aufblähen und die Ladezeiten negativ beeinflussen. Daher können Daten auch dynamisch geladen werden. Dynamsich geladene Daten können z.b. anhand der Kartengrenzen beegrenzt werden.
 
+.. _datenformatGeoJson:
+
 Datenformat GeoJSON
 -------------------
 
