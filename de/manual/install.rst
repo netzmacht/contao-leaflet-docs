@@ -7,7 +7,7 @@ Systemvoraussetzungen
 Leaflet für Contao in der Version 3 bringt folgende Systemvoraussetzungen mit:
 
  - min. Contao 4.4
- - min. PHP 7.0
+ - min. PHP 7.1
 
 Über den Contao Manager
 -----------------------
