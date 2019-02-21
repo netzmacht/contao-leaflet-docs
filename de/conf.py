@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Leaflet Maps for Contao'
-copyright = u'2019, netzmacht David Molineus'
+copyright = u'2016-2019, netzmacht David Molineus'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
